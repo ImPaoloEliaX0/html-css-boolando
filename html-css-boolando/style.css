@@ -1,0 +1,113 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin:auto;
+}
+
+img{
+    max-width: 350px;
+}
+
+.row {
+    margin: 40px 0px;
+}
+
+
+.product {
+    position: relative;
+    display: inline-block;
+   
+}
+
+.description2 {
+    font-weight: 700;
+}
+
+.price{
+    font-weight: 500;
+}
+
+.red-price {
+    color: red;
+}
+
+.black-price {
+    color: black;
+    text-decoration: line-through;
+}
+
+.product .discount {
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    bottom: 15%;
+    left: 0;
+    background-color: red;
+    padding: 5px 10px;
+}
+
+
+
+.heart {
+    color:black;
+    padding: 5px;
+    padding-top: 13px;
+    background-color: white;
+   text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    
+    width: 10%;
+    height: 5%;
+    
+}
+
+
+    .product .banner{
+        font-weight: 600;
+        color: white;
+        position: absolute;
+        bottom: 15%;
+        left: 0;
+        background-color: green;
+        padding: 5px 10px;
+    }
+
+    .banner-right{
+        font-weight: 600;
+        color: white;
+        position: absolute;
+        bottom: 15%;
+        left: 17%;
+        background-color: green;
+        padding: 5px 10px;
+    }
+
+#img1:hover{
+    background: url(img/1b.webp);
+}
+
+
+#img2:hover{
+    background: url(img/2b.webp);
+}
+#img3:hover{
+    background: url(img/3b.webp);
+}
+
+#img4:hover{
+    background: url(img/4b.webp);
+}
+
+#img5:hover{
+    background: url(img/5b.webp);
+}
+
+.img6:hover{
+    background: url(img/6b.webp);
+}
